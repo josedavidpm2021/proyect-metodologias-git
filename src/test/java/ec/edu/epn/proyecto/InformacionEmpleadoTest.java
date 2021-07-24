@@ -59,8 +59,6 @@ public class InformacionEmpleadoTest {
     //Prueba para crear el metodo toString de la clase información empleado
     @Test
     public void given_information_employee_when_print_information_then_ok(){
-        String actual = "Información Empleado: \nSalario: 400.0\nTipo de contrato: Tiempo completo";
-        String expected = inf.toString();
-        assertEquals(actual,expected);
+        assertEquals("Información Empleado: \nSalario: 400.0\nTipo de contrato: Tiempo completo",inf.toString());
     }
 }
