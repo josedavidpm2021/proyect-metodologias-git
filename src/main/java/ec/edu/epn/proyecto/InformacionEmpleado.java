@@ -12,7 +12,7 @@ public class InformacionEmpleado {
         this.salary = salary;
         this.valueHourAdd = 2.50;
         this.numMemo = 0;
-        setKindEmp("Tiempo Completo");
+        setKindEmp("Tiempo completo");
     }
 
     public double incrementSalary(int numExtraHours) {
@@ -51,7 +51,7 @@ public class InformacionEmpleado {
     }
 
     public String toString(){
-        return "";
+        return "Información Empleado: \nSalario: " + salary + "\nTipo de contrato: "+ typeContract;
     }
 
 }
