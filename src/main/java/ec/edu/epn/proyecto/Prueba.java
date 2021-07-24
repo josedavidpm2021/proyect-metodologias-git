@@ -17,6 +17,7 @@ public class Prueba {
 		//Prueba Primer Caso de Uso-Mejorando la consola
 		Propietario propietario1= new Propietario("Christian", "1721795811", "0984149550", "Conocoto");
 		Mecanico mecanico= new Mecanico("José", "1232321289", "0984568790", "Mitad del Mundo");
+		mecanico.setInformacionEmpleado(new InformacionEmpleado(400));
 
 		System.out.println("\nPrueba de Registro de un Vehículo.");
 		System.out.println(vehiculos.toString());
@@ -67,5 +68,9 @@ public class Prueba {
 		System.out.println("\nFactura realizada Exitosamente.");
 		String metodoPago = "Efectivo";
 		System.out.println(fichaTecnica.solicitarFactura(metodoPago));
+
+		//Funcionalidades implementadas en la práctica 5
+
+		System.out.println("Datos Mecánico: \n" + mecanico.toString() );
 	}
 }

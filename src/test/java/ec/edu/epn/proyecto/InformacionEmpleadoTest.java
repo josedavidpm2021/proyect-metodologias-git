@@ -55,4 +55,13 @@ public class InformacionEmpleadoTest {
     public void given_one_int_when_subtract_salary_then_ok(){
         assertEquals(387.5, inf.decrementSalary(5),0.001);
     }
+
+    //Prueba para crear el metodo toString de la clase información empleado
+    @Test
+    public void given_information_employee_when_print_information_then_ok(){
+        String actual = "Información Empleado: \nSalario: 400.00\nTipo de contrato: Tiempo completo";
+        String expected = inf.toString();
+        assertSame(actual,expected);
+        //assertSame("Información Empleado: \nSalario: 400.00\nTipo de contrato: Tiempo completo", inf.toString());
+    }
 }
