@@ -109,5 +109,12 @@ public class Prueba {
 		System.out.println("\nPrueba de cambiar el tipo de contrato de un empleado");
 		informacionEmpleado.setKindEmp("Medio Tiempo");
 		System.out.println(mecanico.toString());
+
+		/*Prueba Test 8
+		 *Prueba donde reducimos el salario de un empleado enviando el un numero de horas para
+		 *que la reducción del sueldo sea en funcion del numero de horas que no trabajó*/
+		System.out.println("\nPrueba de reducir el salario de un empleado");
+		informacionEmpleado.decrementSalary(10);
+		System.out.println(mecanico.toString());
 	}
 }
