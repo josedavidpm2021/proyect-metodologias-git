@@ -17,7 +17,8 @@ public class Prueba {
 		//Prueba Primer Caso de Uso-Mejorando la consola
 		Propietario propietario1= new Propietario("Christian", "1721795811", "0984149550", "Conocoto");
 		Mecanico mecanico= new Mecanico("José", "1232321289", "0984568790", "Mitad del Mundo");
-		mecanico.setInformacionEmpleado(new InformacionEmpleado(400));
+		InformacionEmpleado informacionEmpleado = new InformacionEmpleado(400.0);
+		mecanico.setInformacionEmpleado(informacionEmpleado);
 
 		System.out.println("\nPrueba de Registro de un Vehículo.");
 		System.out.println(vehiculos.toString());
@@ -70,7 +71,13 @@ public class Prueba {
 		System.out.println(fichaTecnica.solicitarFactura(metodoPago));
 
 		//Funcionalidades implementadas en la práctica 5
-
 		System.out.println("Datos Mecánico: \n" + mecanico.toString() );
+
+		/*Prueba Test 1
+		 *Prueba donde incrementamos el salario de un empleado enviando el un numero de horas para
+		 *que el aumento del sueldo sea en funcion del numero de horas que trabajó*/
+		System.out.println("\nPrueba de Incrementar el salario de un empleado");
+		informacionEmpleado.incrementSalary(20);
+		System.out.println(mecanico.toString());
 	}
 }
