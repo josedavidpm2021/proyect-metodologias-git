@@ -61,4 +61,13 @@ public class InformacionEmpleadoTest {
     public void given_information_employee_when_print_information_then_ok(){
         assertEquals("Información Empleado: \nSalario: 400.0\nTipo de contrato: Tiempo completo",inf.toString());
     }
+    @Test
+    public void given_employee_when_print_information_then_ok(){
+        Mecanico mecanico= new Mecanico("José", "1232321289", "0984568790", "Mitad del Mundo");
+        mecanico.setInformacionEmpleado(inf);
+        String actual = "Mecánico\nNombre: José\nCédula: 1232321289\nTeléfono: 0984568790\nDirección: Mitad del Mundo" +
+                "\nInformación Empleado: \nSalario: 400.0\nTipo de contrato: Tiempo completo";
+        String expected = mecanico.toString();
+        assertEquals(actual,expected);
+    }
 }

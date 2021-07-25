@@ -54,6 +54,6 @@ public class Mecanico {
 	@Override
 	public String toString() {
 		return "Mecánico\nNombre: " + nombre + "\nCédula: " + cedula + "\nTeléfono: " + telefono + "\nDirección: "
-				+ direccion + "\n"+ informacionEmpleado;
+				+ direccion + "\n";
 	}
 }
