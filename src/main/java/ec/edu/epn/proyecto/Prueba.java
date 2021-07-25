@@ -97,6 +97,12 @@ public class Prueba {
 		System.out.println(informacionEmpleado.verifyMemo()? "El empleado SI tiene 3 memos en total":
 				"El empleado NO tiene 3 memos todavía");
 
+		/*Prueba Test 4
+		 *Prueba donde verificaremos si el empleado tiene 3 memos, el empleado sera
+		 *despedido y se mostrata el mensaje*/
+		informacionEmpleado.increaseMemo();
+		System.out.println("\nPrueba de verificar si el empleado sera despedido en función del numero de memos");
+		System.out.println(informacionEmpleado.getFired());
 
 	}
 }
