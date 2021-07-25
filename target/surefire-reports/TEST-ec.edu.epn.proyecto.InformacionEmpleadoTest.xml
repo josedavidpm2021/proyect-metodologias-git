@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="ec.edu.epn.proyecto.InformacionEmpleadoTest" time="0.183" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="ec.edu.epn.proyecto.InformacionEmpleadoTest" time="0.181" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.1.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -66,11 +66,11 @@
   </properties>
   <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_value_discount_when_subtract_salary_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_employee_when_print_information_then_ok" time="0"/>
-  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_one_int_when_addition_salary_then_ok" time="0"/>
-  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_int_when_check_num_memo_then_timeout" time="0.058"/>
-  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_int_when_check_num_memo_then_fired" time="0.063"/>
+  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_one_int_when_addition_salary_then_ok" time="0.001"/>
+  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_int_when_check_num_memo_then_timeout" time="0.054"/>
+  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_int_when_check_num_memo_then_fired" time="0.062"/>
   <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_information_employee_when_print_information_then_ok" time="0"/>
   <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_one_int_when_subtract_salary_then_ok" time="0"/>
-  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_int_when_check_num_memo_then_ok" time="0.062"/>
+  <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_int_when_check_num_memo_then_ok" time="0.064"/>
   <testcase classname="ec.edu.epn.proyecto.InformacionEmpleadoTest" name="given_kind_when_modify_inf_then_ok" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="ec.edu.epn.proyecto.I_InformacionEmpleadoTest" time="0.286" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="ec.edu.epn.proyecto.I_InformacionEmpleadoTest" time="0.289" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.1.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,6 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ec.edu.epn.proyecto.I_InformacionEmpleadoTest" name="given_one_inf_when_addService_then_ok" time="0.286"/>
+  <testcase classname="ec.edu.epn.proyecto.I_InformacionEmpleadoTest" name="given_one_inf_when_addService_then_ok" time="0.289"/>
   <testcase classname="ec.edu.epn.proyecto.I_InformacionEmpleadoTest" name="given_int_when_return_bonus_salary_then_ok" time="0"/>
 </testsuite>

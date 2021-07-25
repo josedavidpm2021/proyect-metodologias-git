@@ -104,5 +104,10 @@ public class Prueba {
 		System.out.println("\nPrueba de verificar si el empleado sera despedido en función del numero de memos");
 		System.out.println(informacionEmpleado.getFired());
 
+		/*Prueba Test 7
+		 *Prueba donde dpodemos cambiar el tipo de contrato del empleado*/
+		System.out.println("\nPrueba de cambiar el tipo de contrato de un empleado");
+		informacionEmpleado.setKindEmp("Medio Tiempo");
+		System.out.println(mecanico.toString());
 	}
 }
