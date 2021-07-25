@@ -86,5 +86,17 @@ public class Prueba {
 		System.out.println("\nPrueba de Descontar el salario de un empleado");
 		informacionEmpleado.discountSalary(20);
 		System.out.println(mecanico.toString());
+
+		/*Prueba Test 3
+		 *Prueba donde verificaremos si el empleado tiene 3 memos, esta función solo
+		 *nos devolvera un valor booleano VERDADERO si tiene un numero de memos igual a 3*/
+		informacionEmpleado.increaseMemo();
+		informacionEmpleado.increaseMemo();
+		//informacionEmpleado.increaseMemo();
+		System.out.println("\nPrueba de verificar si un empleado tiene un numero de memos igual a 3");
+		System.out.println(informacionEmpleado.verifyMemo()? "El empleado SI tiene 3 memos en total":
+				"El empleado NO tiene 3 memos todavía");
+
+
 	}
 }
