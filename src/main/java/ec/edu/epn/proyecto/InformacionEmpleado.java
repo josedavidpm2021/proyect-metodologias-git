@@ -59,4 +59,8 @@ public class InformacionEmpleado {
         this.servicios.aniadir(service);
         return true;
     }
+
+    public boolean bonusSalary() {
+        return false;
+    }
 }

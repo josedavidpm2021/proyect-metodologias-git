@@ -77,4 +77,11 @@ public class InformacionEmpleadoTest {
     public void given_service_when_add_then_ok(){
         assertTrue(inf.addService(service));
     }
+
+    @Test
+    public void given_services_when_count_then_ok(){
+        boolean expected = true;
+        boolean actual = inf.bonusSalary();
+        assertEquals(expected,actual);
+    }
 }
