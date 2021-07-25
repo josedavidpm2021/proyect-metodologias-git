@@ -122,5 +122,30 @@ public class Prueba {
 		 */
 		System.out.println("\nPrueba añadir servicios:\n"+(informacionEmpleado.addService(servicios.getServicios().get(0))?mecanico.toString():"No se agrego ningun servicio"));
 
+		/*Prueba Test
+		 *Prueba implementamos la nueva funcionalidad de añadir un incremento al salrio al mencánico
+		 *después de realizar 20 servicios o más*/
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(0));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(0));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(2));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		fichaTecnica.registrarServicioRealizado(servicios.getServicios().get(1));
+		mecanico.getInformacionEmpleado().bonusSalary();
+		System.out.println("\n\nPrueba aumentar sueldo después de 20 servicios:\n"+mecanico.toString());
+
 	}
 }

@@ -18,6 +18,9 @@ public class Mecanico {
 	public void setInformacionEmpleado(InformacionEmpleado informacionEmpleado){
 		this.informacionEmpleado = informacionEmpleado;
 	}
+	public InformacionEmpleado getInformacionEmpleado() {
+		return informacionEmpleado;
+	}
 
 	public String getNombre() {
 		return nombre;

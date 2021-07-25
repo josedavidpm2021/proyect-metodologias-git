@@ -38,6 +38,7 @@ public class FichaTecnica {
 
 	public void registrarServicioRealizado(Servicio servicio) {
 		this.servicios.aniadir(servicio);
+		this.mecanico.getInformacionEmpleado().addService(servicio);
 	}
 	
 	public String solicitarFactura( String metodoPago) {

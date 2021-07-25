@@ -66,6 +66,7 @@ public class InformacionEmpleado {
             return true;
         }else {
             return false;
+
         }
     }
 }
