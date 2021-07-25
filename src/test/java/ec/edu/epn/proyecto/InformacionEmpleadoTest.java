@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 public class InformacionEmpleadoTest {
     InformacionEmpleado inf = null;
     Mecanico mecanico = null;
+    Servicio service = null;
 
     @Before
     public void setUp(){
@@ -16,6 +17,7 @@ public class InformacionEmpleadoTest {
         inf.increaseMemo();
         inf.increaseMemo();
         mecanico = new Mecanico("José", "1232321289", "0984568790", "Mitad del Mundo");
+        service = new Servicio();
     }
 
     @Test
@@ -73,9 +75,6 @@ public class InformacionEmpleadoTest {
 
     @Test
     public void given_service_when_add_then_ok(){
-        Servicio service = new Servicio();
-        boolean expected = true;
-        boolean actual = inf.addService(service);
-        assertEquals(expected,actual);
+        assertTrue(inf.addService(service));
     }
 }
