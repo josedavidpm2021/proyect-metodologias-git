@@ -6,6 +6,7 @@ public class InformacionEmpleado {
     private static double valueHourAdd;
     private static int numMemo;
     private String typeContract;
+    private ListaServicio servicios = new ListaServicio();
 
 
     public InformacionEmpleado(double salary) {
@@ -55,6 +56,7 @@ public class InformacionEmpleado {
     }
 
     public boolean addService(Servicio service) {
-        return false;
+        this.servicios.aniadir(service);
+        return true;
     }
 }
