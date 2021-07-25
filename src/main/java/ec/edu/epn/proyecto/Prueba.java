@@ -79,5 +79,12 @@ public class Prueba {
 		System.out.println("\nPrueba de Incrementar el salario de un empleado");
 		informacionEmpleado.incrementSalary(20);
 		System.out.println(mecanico.toString());
+
+		/*Prueba Test 2
+		 *Prueba donde descontamos el salario de un empleado enviando el valor en dolares
+		 * Donde descontaremos el sueldo*/
+		System.out.println("\nPrueba de Descontar el salario de un empleado");
+		informacionEmpleado.discountSalary(20);
+		System.out.println(mecanico.toString());
 	}
 }
