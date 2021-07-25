@@ -116,5 +116,11 @@ public class Prueba {
 		System.out.println("\nPrueba de reducir el salario de un empleado");
 		informacionEmpleado.decrementSalary(10);
 		System.out.println(mecanico.toString());
+
+		/*Prueba Test 11
+		 *Prueba donde implementamos la nueva funcionalidad de añadir servicios realizados a un mecánico
+		 */
+		System.out.println("\nPrueba añadir servicios:\n"+(informacionEmpleado.addService(servicios.getServicios().get(0))?mecanico.toString():"No se agrego ningun servicio"));
+
 	}
 }
