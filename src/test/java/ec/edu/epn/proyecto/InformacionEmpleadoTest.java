@@ -18,6 +18,26 @@ public class InformacionEmpleadoTest {
         inf.increaseMemo();
         mecanico = new Mecanico("José", "1232321289", "0984568790", "Mitad del Mundo");
         service = new Servicio();
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
     }
 
     @Test
@@ -80,28 +100,6 @@ public class InformacionEmpleadoTest {
 
     @Test
     public void given_services_when_count_then_ok(){
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        inf.addService(service);
-        boolean expected = true;
-        boolean actual = inf.bonusSalary();
-        assertEquals(expected,actual);
+        assertTrue(inf.bonusSalary());
     }
 }
