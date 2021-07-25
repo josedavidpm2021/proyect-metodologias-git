@@ -80,6 +80,26 @@ public class InformacionEmpleadoTest {
 
     @Test
     public void given_services_when_count_then_ok(){
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
+        inf.addService(service);
         boolean expected = true;
         boolean actual = inf.bonusSalary();
         assertEquals(expected,actual);

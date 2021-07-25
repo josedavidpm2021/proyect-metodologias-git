@@ -61,6 +61,11 @@ public class InformacionEmpleado {
     }
 
     public boolean bonusSalary() {
-        return false;
+        if(servicios.getServicios().size()>=20){
+            incrementSalary(10);
+            return true;
+        }else {
+            return false;
+        }
     }
 }
