@@ -25,4 +25,5 @@ public class I_InformacionEmpleadoTest {
         Mockito.when(inf.bonusSalary("1724082605")).thenReturn(100.0);
         assertEquals(100.00, inf.bonusSalary("1724082605"),0.001);
     }
+
 }

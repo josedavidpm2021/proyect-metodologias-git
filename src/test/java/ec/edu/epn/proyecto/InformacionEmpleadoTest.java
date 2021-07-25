@@ -63,10 +63,19 @@ public class InformacionEmpleadoTest {
     public void given_information_employee_when_print_information_then_ok(){
         assertEquals("Información Empleado: \nSalario: 400.0\nTipo de contrato: Tiempo completo",inf.toString());
     }
+
     @Test
     public void given_employee_when_print_information_then_ok(){
         mecanico.setInformacionEmpleado(inf);
         assertEquals("Mecánico\nNombre: José\nCédula: 1232321289\nTeléfono: 0984568790\nDirección: Mitad del Mundo" +
                 "\nInformación Empleado: \nSalario: 400.0\nTipo de contrato: Tiempo completo",mecanico.toString());
+    }
+
+    @Test
+    public void given_service_when_add_then_ok(){
+        Servicio service = new Servicio();
+        boolean expected = true;
+        boolean actual = inf.addService(service);
+        assertEquals(expected,actual);
     }
 }

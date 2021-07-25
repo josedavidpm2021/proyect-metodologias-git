@@ -54,4 +54,7 @@ public class InformacionEmpleado {
         return "Información Empleado: \nSalario: " + salary + "\nTipo de contrato: "+ typeContract;
     }
 
+    public boolean addService(Servicio service) {
+        return false;
+    }
 }
